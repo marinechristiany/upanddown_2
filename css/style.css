@@ -1,0 +1,78 @@
+html{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #545454; /* Old browsers */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: -moz-radial-gradient(center, ellipse cover, #545454 0%, #262626 86%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #545454 0%,#262626 86%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #545454 0%,#262626 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	--pink : #ed1e79;
+	--yellow : #ffff00;
+	--blue : #0000ff;
+	--green : #00ff00;
+	--red: #ff0000;
+	--darkpink: #d4145a;
+}
+
+h2 {
+	margin-top: 90px;
+	margin-bottom: 70px;
+	font-size: 53px;
+	color: var(--pink);
+	text-shadow: var(--blue) 3px 3px, var(--blue) -3px 3px, var(--blue) -3px -3px, var(--blue) 3px -3px, 11px 11px 5px rgba(0, 0, 0, 1);
+}
+
+section{
+	padding: 85px 95px 85px 95px;
+	margin: auto;
+	height: 468px;
+	width: 663px;
+	background-image: url("../images/tablet1.png");
+	background-repeat: no-repeat;
+	background-size: contain; ;
+	background-position: center center;
+	box-sizing: border-box;
+	border-radius: 24px;
+	-webkit-box-shadow: 14px 14px 5px 0px rgba(0,0,0,.7);
+	-moz-box-shadow: 14px 14px 5px 0px rgba(0,0,0,.7);
+	box-shadow: 14px 14px 5px 0px rgba(0,0,0,.7);
+}
+
+div{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+}
+
+footer{
+	width: 100%;
+	margin-top: 80px;
+}
+
+footer p:first-child{
+	font-size: 40px;
+	color: var(--pink);
+	text-shadow: var(--blue) 3px 3px, var(--blue) -3px 3px, var(--blue) -3px -3px, var(--blue) 3px -3px, 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.subtittle{
+	font-size: 30px;
+	color: var(--pink);
+	text-shadow: var(--blue) 3px 3px, var(--blue) -3px 3px, var(--blue) -3px -3px, var(--blue) 3px -3px, 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.credit {
+	font-family: 'Bungee Inline', cursive;
+	color: var(--yellow);
+	font-size: 20px;
+}
