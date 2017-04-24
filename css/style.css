@@ -12,7 +12,6 @@ body{
 	background: -moz-radial-gradient(center, ellipse cover, #545454 0%, #262626 86%); /* FF3.6-15 */
 	background: -webkit-radial-gradient(center, ellipse cover, #545454 0%,#262626 86%); /* Chrome10-25,Safari5.1-6 */
 	background: radial-gradient(ellipse at center, #545454 0%,#262626 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	
 	font-family: 'Press Start 2P', cursive;
 	text-align: center;
 	--pink : #ed1e79;
@@ -75,4 +74,47 @@ footer p:first-child{
 	font-family: 'Bungee Inline', cursive;
 	color: var(--yellow);
 	font-size: 20px;
+}
+
+.game-text {
+	font-size: 22px;
+	color: var(--yellow);
+}
+
+.game-caption {
+	font-size: 16px;
+	color: var(--darkpink);
+}
+
+/* INPUT */
+input {
+	background: none;
+	border: none;
+	border-bottom: var(--yellow) 5px dashed;
+	margin: 40px auto 40px auto;
+}
+
+/* DIV WON */
+.won {
+	display: block;
+}
+
+.won>div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.pacman{
+	background-image: url("../images/pacman-png-0.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* DIV GAME OVER */
+.loose {
+	display: block;
+	background-image: url("../images/game-over.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 }
