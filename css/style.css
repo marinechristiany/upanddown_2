@@ -99,16 +99,21 @@ input {
 	display: block;
 }
 
-.won>div {
+.flex{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
 
 .pacman{
-	background-image: url("../images/pacman-png-0.png");
+	background-image: url("../images/pacman.png");
 	background-position: center center;
 	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.phantom {
+	flex: 2;
 }
 
 /* DIV GAME OVER */
