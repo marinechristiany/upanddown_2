@@ -78,7 +78,7 @@ footer p:first-child{
 	font-size: 20px;
 }
 
-section div:nth-child(1){
+section > div.start{
     background-image: url("../images/startres.jpg");
     background-color: black;
     background-size: contain;
@@ -108,3 +108,4 @@ button {
     border-radius: 8px;
     margin-top: 20px;
 }
+
