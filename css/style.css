@@ -32,7 +32,7 @@ h2 {
 }
 
 section{
-	padding: 85px 95px 85px 95px;
+	padding: 65px 75px;
 	margin: auto;
 	height: 468px;
 	width: 663px;
@@ -51,7 +51,8 @@ div{
 	width: 100%;
 	height: 100%;
 	margin: auto;
-	padding: 0;
+	padding: 20px;
+    box-sizing: border-box;
 }
 
 footer{
@@ -75,4 +76,35 @@ footer p:first-child{
 	font-family: 'Bungee Inline', cursive;
 	color: var(--yellow);
 	font-size: 20px;
+}
+
+section div:nth-child(1){
+    background-image: url("../images/startres.jpg");
+    background-color: black;
+    background-size: contain;
+    background-position: -8px center;
+    background-repeat: no-repeat;
+}
+
+body > section > div.start >p{
+    color: var(--yellow);
+    font-size: 2.2em;
+    line-height: 1.5em;
+    margin: 0;
+    
+}
+
+body > section > div.start > p:nth-child(2){
+    margin-top: 65px;
+}
+
+button {
+    color: var(--red);
+    font-family: inherit;
+    font-size: 1.2em;
+    background-color: var(--green);
+    height: 45px;
+    width: 125px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
