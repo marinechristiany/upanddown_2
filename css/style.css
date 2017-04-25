@@ -152,9 +152,14 @@ input:focus {
 	background-position: center;
 }
 
+.loose button{
+	margin: 122px auto 100px auto;
+}
+
+/* FIN MARINE */
 
 
-
+/* CLAIRE */
 /* DIV START */
 
 section > div.start{
