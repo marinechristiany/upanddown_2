@@ -2,7 +2,6 @@
 var ecranStart=document.querySelectorAll('.start');
 var btn=document.querySelector('.start button');
 var ecranChoose=document.querySelector('.choose');
-var ecranJeu=document.querySelector('section');
 var titre=document.querySelector('h2');
 
 
