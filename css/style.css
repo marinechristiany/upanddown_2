@@ -231,16 +231,15 @@ body > section > div.start > p:nth-child(2){
 
 /* DIV CHOOSE */
 .bluephantom{
-    width: 80%;
-    height: 15%;
+    height: 20%;
     background-image: url(../images/bluephantom.png);
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
 
-.forInput{
-    margin-bottom: 35px;
+.choose .forInput{
+    margin-bottom: 15px;
     margin-top: 35px;
 }
 
