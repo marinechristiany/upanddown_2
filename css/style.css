@@ -1,3 +1,4 @@
+/*GENERAL */
 html{
 	min-height: 100%;
 	min-width: 100%;
@@ -54,6 +55,17 @@ div{
     box-sizing: border-box;
 }
 
+button {
+    color: var(--red);
+    font-family: inherit;
+    font-size: 1.2em;
+    background-color: var(--green);
+    height: 45px;
+    width: 125px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
 footer{
 	width: 100%;
 	margin-top: 80px;
@@ -80,6 +92,7 @@ footer p:first-child{
 
 .game-text {
 	font-size: 22px;
+    line-height: 32px;
 	color: var(--yellow);
 }
 
@@ -124,6 +137,8 @@ input:focus {
   outline: none;
   color: var(--yellow);
 }
+/* FIN GENERAL */
+
 
 /* POUR QUE LA BORDURE CLIGNOTE */
 @-webkit-keyframes borderflash {
@@ -147,6 +162,9 @@ input:focus {
 	opacity: 1;
   }
 }
+
+
+/* MARINE */
 
 /* DIV WON */
 .won {
@@ -185,31 +203,12 @@ input:focus {
 	margin: 122px auto 100px auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FIN MARINE */
 
+
 /* CLAIRE */
+/* DIV START */
+
 section > div.start{
     background-image: url("../images/startres.jpg");
     background-color: black;
@@ -220,24 +219,26 @@ section > div.start{
 
 body > section > div.start >p{
     color: var(--yellow);
-    font-size: 2.2em;
-    line-height: 1.5em;
+    font-size: 35px;
+    line-height: 45px;
     margin: 0;
     
 }
 
 body > section > div.start > p:nth-child(2){
-    margin-top: 65px;
+    margin-top: 80px;
 }
 
-button {
-    color: var(--red);
-    font-family: inherit;
-    font-size: 1.2em;
-    background-color: var(--green);
-    height: 45px;
-    width: 125px;
-    border-radius: 8px;
-    margin-top: 20px;
+/* DIV CHOOSE */
+.bluephantom{
+    width: 80%;
+    height: auto;
+    background-image: url(../images/bluephantom.png);
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
+.hidden{
+    display: none;
+}
