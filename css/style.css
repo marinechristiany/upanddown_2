@@ -91,7 +91,7 @@ footer p:first-child{
 /* INPUT */
 .forInput {
 	width: 100%;
-    height: 35px;
+    height: 40px;
     padding: 0;
     margin: 50px auto 50px auto;
     display: flex;
@@ -126,6 +126,18 @@ input:focus {
 }
 
 /* POUR QUE LA BORDURE CLIGNOTE */
+@-webkit-keyframes borderflash {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes borderflash {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes borderflash {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
 @keyframes borderflash {
   from {
     opacity: 0;
@@ -135,7 +147,6 @@ input:focus {
 	opacity: 1;
   }
 }
-
 
 /* DIV WON */
 .won {
