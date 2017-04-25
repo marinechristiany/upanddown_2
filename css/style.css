@@ -188,7 +188,10 @@ input:focus {
 }
 
 .phantom {
-	flex: 2;
+    background-image: url("../images/spritephantom.png");
+    background-position: -392px 0px;
+    background-repeat: no-repeat;
+	flex: 7;
 }
 
 /* DIV GAME OVER */
