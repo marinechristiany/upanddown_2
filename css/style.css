@@ -188,6 +188,9 @@ input:focus {
 }
 
 .phantom {
+    background-image: url("../images/spritephantom.png");
+    background-position: -392px 0px;
+    background-repeat: no-repeat;
 	flex: 7;
 }
 
