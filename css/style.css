@@ -177,5 +177,13 @@ body > section > div.start > p:nth-child(2){
     margin-top: 80px;
 }
 
-
+/* DIV CHOOSE */
+.bluephantom{
+    width: 80%;
+    height: auto;
+    background-image: url(../images/bluephantom.png);
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
 
