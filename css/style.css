@@ -165,7 +165,7 @@ input:focus {
 /* CLAIRE */
 /* DIV START */
 
-section > div.start{
+div.start{
     background-image: url("../images/startres.jpg");
     background-color: black;
     background-size: contain;
@@ -173,7 +173,7 @@ section > div.start{
     background-repeat: no-repeat;
 }
 
-body > section > div.start >p{
+div.start >p{
     color: var(--yellow);
     font-size: 35px;
     line-height: 45px;
@@ -193,6 +193,14 @@ body > section > div.start > p:nth-child(2){
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
+}
+.choose > input{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+div.choose > p.game-text{
+    margin-bottom: 16px;
 }
 
 .hidden{
