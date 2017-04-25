@@ -217,6 +217,7 @@ input:focus {
 /* DIV START */
 
 div.start{
+	display: block;
     background-image: url("../images/startres.jpg");
     background-color: black;
     background-size: contain;
