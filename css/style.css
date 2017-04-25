@@ -182,7 +182,7 @@ input:focus {
 
 .pacman{
 	background-image: url("../images/pacman.png");
-	background-position: center center;
+	background-position: -6px center;
 	background-repeat: no-repeat;
 	flex: 1;
 }
