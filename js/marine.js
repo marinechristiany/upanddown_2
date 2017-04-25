@@ -9,5 +9,5 @@
 // FONCTIONS
 	function startClick(){
 		console.log("J'ai pu cliqué !!");
-		
+
 	}

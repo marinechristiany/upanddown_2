@@ -230,7 +230,6 @@ div.start >p{
     font-size: 35px;
     line-height: 45px;
     margin: 0;
-    
 }
 
 body > section > div.start > p:nth-child(2){
@@ -254,6 +253,10 @@ body > section > div.start > p:nth-child(2){
     background-repeat: no-repeat;
 }
 
+.choose{
+    display: block;
+}
+
 .choose .forInput{
     margin-bottom: 15px;
     margin-top: 35px;
@@ -265,4 +268,8 @@ div.choose > p.game-text{
 
 .hidden{
     display: none;
+}
+
+.start-opa{
+    opacity:0;
 }
