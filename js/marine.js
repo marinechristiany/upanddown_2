@@ -2,6 +2,7 @@
 	var btnStart = document.querySelector('.start button');
 	var startClass = document.querySelectorAll('.start');
 	var startTitle = document.querySelector('h2');
+	var footerSubtitle = document.querySelector('footer .subtitle');
 	var chooseScreen = document.querySelector('.choose');
 	var looseScreen = document.querySelector('.loose');
 	var winScreen = document.querySelector('.won');
@@ -47,6 +48,11 @@
 		startTitle.classList.add('start-opa');
 		chooseScreen.classList.add('choose');
 		chooseScreen.classList.remove('hidden');
+		startTitle.classList.add('start-opa');
+		chooseScreen.classList.add('choose');
+		chooseScreen.classList.remove('hidden');
+		footerSubtitle.classList.add('subtitle');
+		footerSubtitle.classList.remove('hidden');
 
 	}
 
