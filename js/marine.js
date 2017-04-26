@@ -96,6 +96,10 @@
 						lowScreen.classList.add('hidden');
 						userShots++;
 						position = 2;
+						for(i=0; i<theInput.length; i++){
+							theInput[i].value = "";
+						}
+
 
 					} else if(userNumber>computerNumber) {
 
@@ -107,6 +111,10 @@
 						lowScreen.classList.remove('hidden');
 						userShots++;
 						position = 1;
+						for(i=0; i<theInput.length; i++){
+							theInput[i].value = "";
+						}
+
 					}
 
 				} else{
@@ -147,7 +155,7 @@
 
 		for(i=0; i<theInput.length; i++){
 			theInput[i].value = "";
-	}
+		}
 
 		for(i=0; i<phantomLife.length; i++){
 			phantomLife[i].style.backgroundPositionX = positionLeft+"px";
