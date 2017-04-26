@@ -1,6 +1,7 @@
 // Déclaration des variables
 	var btnStart = document.querySelector('.start button');
-	var startScreen = document.querySelector('.start');
+	var startClass = document.querySelectorAll('.start');
+	console.log(typeof startClass);
 
 // Ecouteur d'évenements
 	btnStart.addEventListener('click',startClick);
@@ -8,6 +9,9 @@
 
 // FONCTIONS
 	function startClick(){
-		console.log("J'ai pu cliqué !!");
+		for(i=0; i<startClass.length; i++){
+			startClass[i].classList.add("hidden");
+			startClass[i].classList.remove("start");
+		}
 
 	}
