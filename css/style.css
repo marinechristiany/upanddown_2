@@ -187,14 +187,14 @@ input:focus {
 	background-image: url("../images/pacman.png");
 	background-position: -6px center;
 	background-repeat: no-repeat;
-	flex: 1;
+	width: 50px;
 }
 
 .phantom {
     background-image: url("../images/spritephantom.png");
     background-position: -392px 0px;
     background-repeat: no-repeat;
-	flex: 7;
+	width: 389px;
 }
 
 /* DIV GAME OVER */
