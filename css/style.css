@@ -77,7 +77,8 @@ footer p:first-child{
 	text-shadow: var(--blue) 3px 3px, var(--blue) -3px 3px, var(--blue) -3px -3px, var(--blue) 3px -3px, 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
-.subtittle{
+.subtitle{
+	display: block;
 	font-size: 30px;
 	color: var(--pink);
 	text-shadow: var(--blue) 3px 3px, var(--blue) -3px 3px, var(--blue) -3px -3px, var(--blue) 3px -3px, 5px 5px 5px rgba(0, 0, 0, 1);
@@ -187,14 +188,14 @@ input:focus {
 	background-image: url("../images/pacman.png");
 	background-position: -6px center;
 	background-repeat: no-repeat;
-	flex: 1;
+	width: 50px;
 }
 
 .phantom {
     background-image: url("../images/spritephantom.png");
     background-position: -392px 0px;
     background-repeat: no-repeat;
-	flex: 7;
+	width: 386px;
 }
 
 /* DIV GAME OVER */
@@ -217,7 +218,7 @@ input:focus {
 /* DIV START */
 
 div.start{
-    display: block;
+	display: block;
     background-image: url("../images/startres.jpg");
     background-color: black;
     background-size: contain;
